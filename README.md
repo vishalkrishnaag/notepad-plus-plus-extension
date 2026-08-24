@@ -7,6 +7,7 @@ Notepad++-native parser and, like this repository's other lightweight
 editors (Sublime, Vim, Emacs), doesn't need one — Notepad++'s built-in
 **User Defined Language** (UDL) and **AutoComplete API** systems cover
 syntax highlighting and keyword/function completion entirely through
+
 importable XML, with no plugin build step.
 
 ## Features
