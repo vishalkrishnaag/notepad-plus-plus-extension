@@ -17,37 +17,11 @@
         <KeyWord name="throw" func="yes"><Overload retVal="" descr="Signals an exception reason. With target:, routes the message to a handler rule. Example: throw(msg: &quot;thrown from module a&quot;, target: DivideFailureHandler)"><Param name="msg" /><Param name="target" /></Overload></KeyWord>
         <KeyWord name="type" func="yes"><Overload retVal="" descr="Reads the concrete fact/type name from a map value that carries runtime type metadata. Example: type(value: employee, name: TypeName)"><Param name="value" /><Param name="name" /></Overload></KeyWord>
         <KeyWord name="instanceof" func="yes"><Overload retVal="" descr="Succeeds when a value is an instance of the requested fact/type, including parents declared with extend. Example: instanceof(value: employee, type: Person)"><Param name="value" /><Param name="type" /></Overload></KeyWord>
-        <KeyWord name="Fact:all" />
-        <KeyWord name="Fact:find" />
-        <KeyWord name="Fact:first" />
-        <KeyWord name="Fact:count" />
-        <KeyWord name="Fact:types" />
-        <KeyWord name="Fact:fields" />
-        <KeyWord name="Fact:exists" />
-        <KeyWord name="Fact:select" />
         <KeyWord name="math:add" />
         <KeyWord name="math:sub" />
         <KeyWord name="math:mul" />
         <KeyWord name="math:div" />
         <KeyWord name="math:mod" />
-        <KeyWord name="probability:mean" />
-        <KeyWord name="probability:variance" />
-        <KeyWord name="probability:stddev" />
-        <KeyWord name="probability:normalize" />
-        <KeyWord name="probability:entropy" />
-        <KeyWord name="probability:covariance" />
-        <KeyWord name="probability:correlation" />
-        <KeyWord name="probability:bernoulli" />
-        <KeyWord name="probability:binomialPmf" />
-        <KeyWord name="probability:binomialCdf" />
-        <KeyWord name="probability:poissonPmf" />
-        <KeyWord name="probability:poissonCdf" />
-        <KeyWord name="probability:normalPdf" />
-        <KeyWord name="probability:normalCdf" />
-        <KeyWord name="probability:uniformPdf" />
-        <KeyWord name="probability:uniformCdf" />
-        <KeyWord name="probability:sample" />
-        <KeyWord name="probability:weightedChoice" />
         <KeyWord name="str:len" />
         <KeyWord name="str:contains" />
         <KeyWord name="str:concat" />
@@ -135,8 +109,6 @@
         <KeyWord name="return" />
         <KeyWord name="import" />
         <KeyWord name="nil" />
-        <KeyWord name="true" />
-        <KeyWord name="false" />
         <KeyWord name="any" />
         <KeyWord name="array" />
         <KeyWord name="bool" />
@@ -169,7 +141,6 @@
         <KeyWord name="pair" />
         <KeyWord name="plot" />
         <KeyWord name="prelude" />
-        <KeyWord name="probability" />
         <KeyWord name="process" />
         <KeyWord name="qt" />
         <KeyWord name="set" />

@@ -13,14 +13,14 @@ importable XML, with no plugin build step.
 ## Features
 
 - `Felidae.xml` — a UDL definition: keywords (`extend where if else return
-  lambda then import`), constants (`nil true false`), type annotations,
+  lambda then import`), the `nil` literal, numeric truth (`1.0`/`0.0`), type annotations,
   standard-library module names, `#` line comments, strings, numbers,
   operators (`=> := == != <= >=`), and `{ }` code folding. Associates
   itself with the `.fx` extension on import.
 - `autoCompletion/Felidae.xml` — Notepad++'s AutoComplete API file,
   generated from the same `builtin-docs.json` used by `vs-code-extension`
-  and `intellij-idea-extension`. Typing a builtin name (e.g. `math:add(`,
-  `Fact:find(`) shows its parameters and description; language keywords
+  and `intellij-idea-extension`. Typing a builtin name (e.g. `math:add(`)
+  shows its parameters and description; language keywords
   and standard-library module names complete as plain words.
 
 Not included: a function-list panel entry and a Run/Debug command. Those
