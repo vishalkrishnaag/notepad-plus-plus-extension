@@ -27,10 +27,9 @@ Not included: a function-list panel entry and a Run/Debug command. Those
 require editing Notepad++'s shared `functionList/associationMap.xml` and
 either the NppExec plugin or a custom shortcuts entry, both of which live
 outside a user-local, drag-and-drop install. `NppExec` users can wire up
-`felidae "$(FULL_CURRENT_PATH)"` / `felidae_debug "$(FULL_CURRENT_PATH)"`
-/ `celidae "$(FULL_CURRENT_PATH)"` execute commands manually, matching
-`felidae.interpreterPath` / `felidae.debugInterpreterPath` /
-`felidae.celidaePath` in `vs-code-extension`.
+`felidae "$(FULL_CURRENT_PATH)"`, `felidae "$(FULL_CURRENT_PATH)" --check`,
+and `celidae "$(FULL_CURRENT_PATH)"` commands manually. Set the executable to
+an absolute Windows path if it is not on PATH.
 
 ## Installation
 

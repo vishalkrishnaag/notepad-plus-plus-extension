@@ -24,7 +24,7 @@
             <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
-            <Keywords name="Keywords1">extend where if else return lambda then import</Keywords>
+            <Keywords name="Keywords1">class end extend where if else return lambda then import</Keywords>
             <Keywords name="Keywords2">nil</Keywords>
             <Keywords name="Keywords3">any array bool boolean decimal double float int number string</Keywords>
             <Keywords name="Keywords4">array comparison console csv db exception fact fact_analysis file flibrary fn group gtk http json list logic math ml package pair plot prelude process qt set smoke str system thread wordnet</Keywords>
