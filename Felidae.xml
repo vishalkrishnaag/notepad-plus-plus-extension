@@ -24,12 +24,12 @@
             <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
-            <Keywords name="Keywords1">class end extend where if else return lambda then import</Keywords>
+            <Keywords name="Keywords1">def class extend extends index where if else then for in while switch case default break continue try catch new this super lambda import</Keywords>
             <Keywords name="Keywords2">nil</Keywords>
             <Keywords name="Keywords3">any array bool boolean decimal double float int number string</Keywords>
             <Keywords name="Keywords4">array comparison console csv db exception fact fact_analysis file flibrary fn group gtk http json list logic math ml package pair plot prelude process qt set smoke str system thread wordnet</Keywords>
             <Keywords name="Keywords5">count average sort search contains lower upper length throw type instanceof</Keywords>
-            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords6">end</Keywords>
             <Keywords name="Keywords7"></Keywords>
             <Keywords name="Keywords8"></Keywords>
             <Keywords name="Delimiters">00"01\02"03 04 05 06 07 08</Keywords>
@@ -44,7 +44,7 @@
             <WordsStyle name="KEYWORD3" styleID="7" fgColor="007070" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" nesting="0" />
             <WordsStyle name="KEYWORD4" styleID="8" fgColor="8000C0" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" nesting="0" />
             <WordsStyle name="KEYWORD5" styleID="9" fgColor="267F99" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" nesting="0" />
-            <WordsStyle name="KEYWORD6" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="KEYWORD6" styleID="10" fgColor="FF6600" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" nesting="0" />
             <WordsStyle name="KEYWORD7" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" nesting="0" />
             <WordsStyle name="KEYWORD8" styleID="17" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" nesting="0" />
             <WordsStyle name="OPERATOR" styleID="3" fgColor="404040" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" nesting="0" />
